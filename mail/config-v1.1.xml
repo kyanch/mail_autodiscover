@@ -8,7 +8,7 @@
          <hostname>imap.larksuite.com</hostname>
          <port>993</port>
          <socketType>SSL</socketType>
-         <username>%EMAILLOCALPART%</username>
+         <username>%EMAILADDRESS%</username>
          <authentication>password-cleartext</authentication>
       </incomingServer>
 
@@ -16,7 +16,7 @@
          <hostname>smtp.larksuite.com</hostname>
          <port>465</port>
          <socketType>SSL</socketType> <!-- see <incomingServer> -->
-         <username>%EMAILLOCALPART%</username> <!-- if smtp-auth -->
+         <username>%EMAILADDRESS%</username> <!-- if smtp-auth -->
          <authentication>password-cleartext</authentication>
       </outgoingServer>
     </emailProvider>
