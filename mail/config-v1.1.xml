@@ -2,10 +2,10 @@
 <clientConfig version="1.1">
     <emailProvider id="kyanch.icu">
       <domain>kyanch.icu</domain>
-      <displayName>Ali Qiye Mail</displayName>
-      <displayShortName>AliMail</displayShortName>
+      <displayName>Larksuite Mail</displayName>
+      <displayShortName>LarkMail</displayShortName>
       <incomingServer type="imap">
-         <hostname>imap.qiye.aliyun.com</hostname>
+         <hostname>imap.larksuite.com</hostname>
          <port>993</port>
          <socketType>SSL</socketType>
          <username>%EMAILLOCALPART%</username>
@@ -13,7 +13,7 @@
       </incomingServer>
 
       <outgoingServer type="smtp">
-         <hostname>smtp.qiye.aliyun.com</hostname>
+         <hostname>smtp.larksuite.com</hostname>
          <port>465</port>
          <socketType>SSL</socketType> <!-- see <incomingServer> -->
          <username>%EMAILLOCALPART%</username> <!-- if smtp-auth -->
